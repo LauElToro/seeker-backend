@@ -135,7 +135,7 @@ El proyecto incluye **tests E2E (end-to-end)** que cubren:
 
 2. Ejecutar los tests:
    ```bash
-   docker exec -it seeker_app php artisan test --testdox
+   docker exec -it seeker_app php artisan test --filter=ParkingApiTest  
    ```
 
 **Salida esperada:**
@@ -144,8 +144,8 @@ PASS  Tests\Feature\ParkingApiTest
 ✓ e2e crea lista muestra nearest y loguea fuera de rango
 ✓ valida payloads invalidos
 ✓ devuelve 404 si no existe el parking
-
-Tests:    3 passed (18 assertions)
+...
+Tests:    x passed (18 assertions)
 Duration: 6.4s
 ```
 
