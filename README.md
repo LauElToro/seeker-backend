@@ -22,22 +22,17 @@ Incluye **tests E2E** que validan toda la funcionalidad.
    cd seeker-backend
    ```
 
-2. Copiá el archivo de variables de entorno:
-   ```bash
-   cp .env.example .env
-   ```
-
-3. Levantá los contenedores con Docker:
+2. Levantá los contenedores con Docker:
    ```bash
    docker-compose up --build -d
    ```
 
-4. Verificá que el contenedor esté corriendo:
+3. Verificá que el contenedor esté corriendo:
    ```bash
    docker ps
    ```
 
-5. Accedé a la API en tu navegador o con `curl`:
+4. Accedé a la API en tu navegador o con `curl`:
    ```
    http://localhost:8000/api/parkings
    ```
